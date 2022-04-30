@@ -6,7 +6,7 @@ setup(
     name='io_channel',
     version=__version__,
 
-    url='https://github.com/aixplain/io-channel',
+    url='https://github.com/aixplain/io_channel',
     author='Usama Jamil',
     author_email='usamajamil77@gmail.com',
 
