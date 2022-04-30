@@ -3,7 +3,7 @@ import json
 
 import boto3
 
-from io_channel.config import S3_BUCKET, S3_KEY_PREFIX
+from iochannel.config import S3_BUCKET, S3_KEY_PREFIX
 
 
 class IOChannel:

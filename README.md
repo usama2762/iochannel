@@ -3,13 +3,13 @@
 ### Install
 
 ```bash
-pip install git+https://github.com/aixplain/io_channel.git#egg=io_channel
+pip install git+https://github.com/aixplain/iochannel.git#egg=iochannel
 ```
 
 ### Use
 
 ```python
-from io_channel import IOChannel
+from iochannel import IOChannel
 # request_id is a uuid4 string
 request_id = 'uuid4'
 IOChannel().read_input(request_id)

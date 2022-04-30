@@ -1,16 +1,16 @@
 from setuptools import setup
 
-from io_channel import __version__
+from iochannel import __version__
 
 setup(
-    name='io_channel',
+    name='iochannel',
     version=__version__,
 
-    url='https://github.com/aixplain/io_channel',
+    url='https://github.com/aixplain/iochannel',
     author='Usama Jamil',
     author_email='usamajamil77@gmail.com',
 
-    py_modules=['io_channel'],
+    py_modules=['iochannel'],
     install_requires=[
         'boto3'
     ],
