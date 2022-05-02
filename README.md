@@ -3,7 +3,7 @@
 ### Install
 
 ```bash
-pip install git+https://github.com/aixplain/iochannel.git#egg=iochannel
+pip install -e git+https://github.com/aixplain/iochannel.git#egg=iochannel
 ```
 
 ### Use
