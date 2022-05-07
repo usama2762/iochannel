@@ -17,5 +17,5 @@ class IOChannel:
 
     def write_output(self, request_id, output, **kwargs):
         object_name = f'{S3_KEY_PREFIX}{request_id}/output.json'
-        self.s3.Bucket(S3_BUCKET).upload_file(output, object_name)
+        self.s3.Bucket(S3_BUCKET).upload_file(output, object_name, ExtraArgs={'ACL': 'public-read'})
         return object_name
